@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: linear-gradient(rgb(81, 154, 238),transparent) ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
+    padding: 30px;
+}
+
+header > h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+nav{
+    margin: 15px;
+    background: #181919;
+    padding: 7px;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+nav a{
+    margin: 10px;
+    gap: 50px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: red;
+    border-radius: 20px;
+    padding: 10px;
+    transition-duration: 0.5s;
+}
+
+main h2{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.malenia {
+    justify-content: center;
+    display: flex;
+}
+
+main nav li{
+    color: red;
+    margin-top: 10px;
+}
+
+.Radahn{
+    justify-content: center;
+    display: flex;
+}
+
+.Maliketh{
+    justify-content: center;
+    display: flex;
+}
+.joia{
+    justify-content: center;
+    display: flex;
+}
+
+img{
+    width: 30%;
+    height: 30%;
+    transition-duration: 1.5s;
+    
+}
+
+main img:hover{
+    width: 60%;
+    height: 60%;
+}
+
+main div p{
+    margin: 30px;
+    background: #181919;
+    padding: 20px;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+footer{
+    background-color: rgb(7, 139, 255);
+}
+
